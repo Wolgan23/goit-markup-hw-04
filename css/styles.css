@@ -132,8 +132,18 @@ color: #404BBF;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: (0.4, 0, 0.2, 1);
+  }
+  
+  /* On hover, change the values of animated properties */
+  .box:hover {
+    background-color: teal;
+    transform: rotate(180deg);
+  }
+
 
 .hero-title {
   color: #FFF;
