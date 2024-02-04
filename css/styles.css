@@ -416,8 +416,8 @@ width: 264px;
   align-items: baseline;
 }
 .container-footer {
-  padding: 0 120px 0 156px;
-  margin: 0;
+  margin-left: 156px;
+  margin-right: 120px
 }
 .footer-logo {
   color: #4D5AE5;
