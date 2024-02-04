@@ -264,6 +264,9 @@ width: 264px;
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.team-item .team-item-prof-link:hover{
+  background-color: #404BBF;
+}
 .cont-t {
   padding: 32px 0;
 }
@@ -387,11 +390,12 @@ width: 264px;
   background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
-  align-items: baseline;
+ 
 }
 .container-footer {
   padding: 0 120px 0 156px;
   margin: 0;
+
 }
 .footer-logo {
   color: #4D5AE5;
@@ -422,6 +426,7 @@ width: 264px;
 .footer-smlinks{
   display: flex;
   flex-direction: column;
+  align-items: baseline
 }
  .footer-sl{
   margin: 0;
