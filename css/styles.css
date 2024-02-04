@@ -126,12 +126,12 @@ color: #404BBF;
   display: flex;
   padding: 188px 0;
   background-image:linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(../images/bg-1sec.jpg);
-  width: 1440xp;
+  max-width:1440xp;
   height: 600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -307,6 +307,7 @@ width: 264px;
   display: flex;
   gap: 24px;
   padding: 0 16px;
+  justify-content: center;
 }
 .team-item-prof-link {
   display: flex;
