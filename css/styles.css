@@ -339,9 +339,11 @@ width: 264px;
   height: 100%;
   background-color: #4d5ae5;
   border-radius:50%;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1 ) ;
 }
 .link-team-sm:hover {
   background-color: #404bbf;
@@ -350,7 +352,8 @@ width: 264px;
   background-color: #404bbf;
 }
 .icon-link{
-  fiil: #f4f4fd;
+  margin: auto;
+  fill: #f4f4fd;
 }
 /* Portfolio 4s sector*/
 
