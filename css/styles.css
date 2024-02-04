@@ -457,3 +457,6 @@ width: 264px;
  .footer-prof-link:hover{
   background-color: #31D0AA;
  }
+ .footer-prof-link:focus{
+  background-color: #31D0AA;
+ }
