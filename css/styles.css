@@ -411,10 +411,7 @@ width: 264px;
   display: flex;
  
 }
-.footer-all{
-  display: flex;
-  align-items: baseline;
-}
+
 .container-footer {
   margin-left: 156px;
   margin-right: 120px;
