@@ -31,7 +31,11 @@ img {
 
 .header {
   border-bottom: 1px solid #E7E9FC;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08)
 }
+
 .header-logo {
   color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -122,7 +126,7 @@ color: #404BBF;
   display: flex;
   padding: 188px 0;
   background-image:linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(../images/bg-1sec.jpg);
-  width: 100%;
+  width: 1144xp;
   height: 600px;
   background-repeat: no-repeat;
   background-position: center;
@@ -159,6 +163,7 @@ color: #404BBF;
     display: block;
     min-width: 169px;
     margin-top: 48px;
+    transition:
 }
 .hero-btn:hover {
   background-color: #404BBF;
@@ -244,6 +249,9 @@ width: 264px;
 .team-item {
   background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .cont-t {
