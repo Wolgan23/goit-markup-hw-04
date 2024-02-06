@@ -446,13 +446,13 @@ width: 264px;
   max-width: 264px;
   margin: 0;
 }
-footer-nav {
+.footer-nav {
   gap: 17.5px;
 }
 .footer-smlinks{
   display: flex;
   flex-direction: column;
-  align-items: baseline
+  align-items: baseline;
 }
  .footer-sl{
   margin: 0;
@@ -468,18 +468,15 @@ footer-nav {
  .links-cont-footer {
   display: flex;
   gap: 16px;
-  width: 40px;
-    height: 40px;
  }
  .footer-prof-link{
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    padding: 12px;
  }
 
  .footer-link {
