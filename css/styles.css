@@ -426,7 +426,7 @@ width: 264px;
     /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
+  
     margin-bottom: 16px;
     
 }
@@ -477,7 +477,6 @@ width: 264px;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    display: inline-block;
     padding: 12px;
  }
 
