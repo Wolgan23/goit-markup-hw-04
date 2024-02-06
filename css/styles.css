@@ -468,6 +468,8 @@ footer-nav {
  .links-cont-footer {
   display: flex;
   gap: 16px;
+  width: 40px;
+    height: 40px;
  }
  .footer-prof-link{
   display: flex;
