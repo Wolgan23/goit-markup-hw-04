@@ -426,7 +426,7 @@ width: 264px;
   position: relative;
   
 }
-.portfolio-item .sellers-cover-text:hover{
+.portfolio-item:hover .sellers-cover-text {
   transform: translateY(0%);
 }
 .portfolio-item-name {
