@@ -427,6 +427,10 @@ width: 264px;
 }
 .portfolio-item{
   position: relative;
+  
+}
+.portfolio-item:hover{
+  position: relative;
   transform: translateY(0%);
 }
 .portfolio-item-name {
